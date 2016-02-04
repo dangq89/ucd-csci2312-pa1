@@ -11,7 +11,7 @@ private:
 
 public:
     // Constructors
-    Point();                      // default constructor
+    Point();                                // default constructor
     Point(double x, double y, double z);    // three-argument constructor
                                             // changed from a two-arugment constructo
     ~Point();
