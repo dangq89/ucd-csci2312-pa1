@@ -27,7 +27,7 @@ int main() {
 
     cout << endl;
 
-    ErrorContext ec(cout);
+    ErrorContext ec(cout); // using destructor to print
 
     // point tests
     test_point_smoketest(ec);
