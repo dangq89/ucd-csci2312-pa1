@@ -1,6 +1,6 @@
 //
 // Created by Quang Dang on 2/1/16.
-//
+// Determines the area of the triangle using distanceTo length of sides
 
 #include <iostream>
 #include <cmath>
