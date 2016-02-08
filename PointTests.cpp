@@ -49,7 +49,7 @@ void test_point_smoketest(ErrorContext &ec) {
     ec.result(pass);
 }
 
-// get/set
+// get/set values
 void test_point_getset(ErrorContext &ec, unsigned int numRuns) {
     bool pass;
 

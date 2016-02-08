@@ -13,7 +13,7 @@ public:
     // Constructors
     Point();                                // default constructor
     Point(double x, double y, double z);    // three-argument constructor
-                                            // changed from a two-arugment constructo
+
     ~Point();                               // destructor
     double distanceTo(const Point &) const; // distance member function to determine length of triangle
 
