@@ -13,7 +13,7 @@ Point::Point() {    // initializing variables to zero.
     z = 0.0;
 }
 
-Point::Point(double __x, double __y, double __z) {
+Point::Point(double __x, double __y, double __z) { // sets default values to inputted values and returns a double
     x = __x;
     y = __y;
     z = __z;
@@ -23,7 +23,7 @@ double Point::distanceTo(const Point &dist) const{  // equation to determine the
     return sqrt(pow(x - dist.getX(), 2) + pow(y - dist.getY(), 2) + pow(z - dist.getZ(), 2));
 }
 
-Point::~Point() {
+Point::~Point() { // sets initial values to new variable inputs
 }
 
 void Point::setX(double newX) {
@@ -38,7 +38,7 @@ void Point::setZ(double newZ) {
     z = newZ;
 }
 
-double Point::getX() const {
+double Point::getX() const { // returns initial value with get function
     return x;
 }
 
