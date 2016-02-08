@@ -3,12 +3,11 @@
 //
 #include <iostream>
 #include <cmath>
-
 #include "Point.h"
 
 using namespace std;
 
-Point::Point() {
+Point::Point() {    // initializing variables to zero.
     x = 0.0;
     y = 0.0;
     z = 0.0;
@@ -20,7 +19,7 @@ Point::Point(double __x, double __y, double __z) {
     z = __z;
 }
 
-double Point::distanceTo(const Point &dist) const{
+double Point::distanceTo(const Point &dist) const{  // equation to determine the instance
     return sqrt(pow(x - dist.getX(), 2) + pow(y - dist.getY(), 2) + pow(z - dist.getZ(), 2));
 }
 
